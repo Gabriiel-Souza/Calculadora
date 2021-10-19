@@ -14,6 +14,15 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0px 5px;
+    box-shadow: 5px 5px 3px rgb(71, 42, 99);
+}
+
+button:active{
+    box-shadow: none;
+}
+
+button:hover {
+    font-size: 27px;
 }
 
 .calculadora {
@@ -27,7 +36,7 @@ button {
     border-width: 0.4rem;
     border-color: rgb(60, 11, 109);
     border-style: solid;
-    box-shadow: 10px 5px 20px rgb(71, 42, 99);
+    box-shadow: 10px 10px 1px rgb(71, 42, 99);
 }
 
 .tela {
@@ -37,6 +46,7 @@ button {
     align-items: center;
     border-radius: 1.5rem;
     color: #fff;
+    font-size: 22px;
 }
 
 .tela p {
@@ -50,6 +60,7 @@ button {
     border-radius: 50%;
     background-color: rgb(128, 128, 128);
     left: 50%;
+    
 }
 
 .longButton {

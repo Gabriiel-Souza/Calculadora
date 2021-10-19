@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora-css.css">
+    <title>Calculadora</title>
+
+</head>
+<body>
+    <div class="calculadora">
+        <div class="tela">
+            <p id="numbers">Digite os números</p>
+        </div>
+        <p></p>
+        <button onclick="limpar()" class="circleButton grayButton">AC</button>
+        <button onclick="trocarSinal()" class="circleButton grayButton">+/-</button>
+        <button onclick="porcentagem()" class="circleButton grayButton">%</button>
+        <button onclick="conta(1)" class="circleButton pinkButton">/</button>
+        <p></p>
+        <button onclick="digitarNum(7)" class="circleButton">7</button>
+        <button onclick="digitarNum(8)" class="circleButton">8</button>
+        <button onclick="digitarNum(9)" class="circleButton">9</button>
+        <button onclick="conta(2)" class="circleButton pinkButton">x</button>
+        <p></p>
+        <button onclick="digitarNum(4)" class="circleButton">4</button>
+        <button onclick="digitarNum(5)" class="circleButton">5</button>
+        <button onclick="digitarNum(6)" class="circleButton">6</button>
+        <button onclick="conta(3)" class="circleButton pinkButton">-</button>
+        <p></p>
+        <button onclick="digitarNum(1)" class="circleButton">1</button>
+        <button onclick="digitarNum(2)" class="circleButton">2</button>
+        <button onclick="digitarNum(3)" class="circleButton">3</button>
+        <button onclick="conta(4)" class="circleButton pinkButton">+</button>
+        <p></p>
+        <button onclick="digitarNum(0)" class="longButton">0</button>
+        <button onclick="digitarVirgula()" class="circleButton">,</button>
+        <button onclick="resultado()" class="circleButton pinkButton">=</button>
+    </div>
+    <script src="calculadora-scripts.js"></script>
+</body>
+</html>
